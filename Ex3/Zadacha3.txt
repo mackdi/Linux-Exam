@@ -1,0 +1,4 @@
+cat Fruits.info | cut -f1 -d '#' | sort
+cat Fruits.info | sort -k 2 -t '#' -n
+cat Fruits.info | sort -k 3 -t '#' -n | tail -1 | cut -f1 -d '#' > fruit
+cat Fruits.info | sort -k 3 -t '#' -n | tail -3
