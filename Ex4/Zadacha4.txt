@@ -1,2 +1,5 @@
 git clone https://github.com/mackdi/Linux-Exam.git
 mkdir Ex{1..4}
+git add --all
+git commit -m 'all files'
+git push
